@@ -77,7 +77,7 @@ app.route("/login")
     });
   });
 
-  ////////////////////// HOME ROUTE //////////////////////////////////
+  ////////////////////// LOGOUT ROUTE //////////////////////////////////
   app.route("/logout")
     .get(function(req, res){
       res.redirect("/");
